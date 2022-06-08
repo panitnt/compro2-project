@@ -1,0 +1,52 @@
+WindowApp
+
+- create_widget : create main widget of this program
+- reset_menu : reset main widget
+
+# input your movies (input function)
+- inside_input_func : the frame that have combobox of column (genre, language, and premiere time) that you can choose keyword
+- reset_input_func : to reset input that you choose keyword
+- before_show_input_func : to sort data and create treeview frame and call data_sort_to_input_func
+- data_sort_to_input_func : put data into treeview
+- clear_input_func_table : clear data that show in treeview
+- delete_input : delete all frame in input function
+- input_func_destroy : delete self.input_func
+- show_input_func_frame_destroy : delete self.show_input_func_frame
+
+
+# find by category (find function)
+- inside_find_func : create button for choose category
+- sort_find_func1 : sort menu for combobox(from menu button)
+- show_find_func : show a table of data that is already sorted
+- data_sort_from_class : add data into table
+- clear_input_find : clear choose menubutton and combobox
+
+- delete_find : delete all frame in find function
+- find_func_destroy : delete self.find_func
+- show_find_func_frame_destroy : delete self.show_find_func_frame
+- count_data_find_destroy : delete self.count_data_find
+
+
+# about Netflix (about function)
+- inside_about_func : the frame have menubutton to choose topic that want to plot
+- choose_type_plot : has a radio button to choose the kind of graph that you want to plot
+- canvas_about_func1 : to set figure canvas and call plot_about_func
+- plot_about_func : to draw a graph in axessubplot
+
+- delete_about : delete all frame in about function
+- about_func_destroy : delete self.about_func
+- type_plot_frame_destroy : delete self.type_plot_frame
+- show_about_graph_destroy : delete self.show_about_graph
+
+
+- update_status_box : to show status of loading data
+- status_destroy : delete status bar
+- update_func : to loop this program
+- run : to run this program
+
+
+
+how different between input your movies and find by category function?
+- Find by category can choose only one column to sorted them. If you didn't choose keyword of that column that you want, it will show all about this column
+- Input your movies can choose 3 keyword of genre, language, and year of premiere time ,but you needn't input all keyword(premiere time is set automatically)
+

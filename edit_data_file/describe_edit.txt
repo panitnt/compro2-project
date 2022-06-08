@@ -1,0 +1,5 @@
+This folder has 2 python file that I used to edit my file from original.
+It has many file of edit, you can see in originalNedit_date folder.
+The main one is netflix.py that from https://www.kaggle.com/datasets/timmofeyy/current-netflix-projects.
+And others, it was edit demo and edit to merge in data that program use(netflix_edit_non_await.py)
+Therefore it doesn't need to run it again.
